@@ -183,3 +183,5 @@ cv.imshowWait("src", src);
 // cv.imshowWait("trans", trans32F);
 // cv.imshowWait("guided", guideTrans32F);
 cv.imshowWait("dst", dst);
+cv.imwrite('./data/src.jpg', src);
+cv.imwrite('./data/dst.jpg', dst);
