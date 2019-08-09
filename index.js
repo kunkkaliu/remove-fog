@@ -1,7 +1,7 @@
 const path = require('path');
 const cv = require('opencv4nodejs');
 
-const src = cv.imread(path.resolve(__dirname, '../data/test3.jpg'));
+const src = cv.imread(path.resolve(__dirname, './data/hongkong.bmp'));
 const rows = src.rows;
 const cols = src.cols;
 const w = 0.95;
